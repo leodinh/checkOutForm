@@ -1,0 +1,84 @@
+.Form {
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    box-shadow: 10px 14px 67px 0px rgba(179, 163, 179, 1);
+    margin: auto
+}
+
+.Form__Title {
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-shadow: 10px 14px 67px 0px rgba(179, 163, 179, 1);
+}
+
+.Form__Content {
+    width: 100%;
+    height: 300px;
+}
+
+.Clear {
+    clear: both;
+}
+
+.Float_right {
+    float: right;
+}
+
+.Float_left {
+    float: left;
+}
+
+.Content__Text {
+    color: blue;
+    width: 60%
+}
+
+.Content__Title {
+    font-size: 1em;
+}
+
+.Content__Underlined {
+    margin: 0 auto;
+    width: 40px;
+    height: 3px;
+    background-color: red
+}
+
+.Content__Select {
+    display: block !important;
+    width: 30%;
+    margin-bottom: 10px;
+    background-color: white
+}
+
+.Content__Form {
+    display: flex !important;
+    margin-bottom: 10px;
+    align-items: center
+}
+
+.Content__Label {
+    margin-top: 10px
+}
+
+.Button:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+@keyframes enable {
+    0% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
